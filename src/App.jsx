@@ -4,6 +4,7 @@ import VariableCounter from "./components/VariableCounter";
 // import HooksCounter from "./components/hoocksCounter";
 // import DaynamicHooksCounter from "./components/daynamicHooksCounter";
 // import Counter from "./components/Counter";
+//
 
 const App = () => {
   return (
