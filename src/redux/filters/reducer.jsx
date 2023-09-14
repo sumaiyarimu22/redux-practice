@@ -11,7 +11,7 @@ const reducer = (state = initialState, action) => {
 
     case COLORCHANGED:
       // eslint-disable-next-line no-case-declarations
-      const { color, changeType } = action.type;
+      const { color, changeType } = action.payload;
 
       switch (changeType) {
         case "added":
